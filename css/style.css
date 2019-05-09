@@ -1,5 +1,6 @@
 body {
 font-family: Helvetica;
+color: #4E5056;
 }
 
 /* Navigation bar */
@@ -15,8 +16,43 @@ font-family: Helvetica;
     margin: 0px;   
 }
 
-.nav-bar {
+/* Burger menu */
+
+.nav-links {
+    text-transform: uppercase;
     display: none;
+    background: #EDE9E9;
+}
+
+.nav-links a:hover {
+    color: white;
+}
+
+.sub-nav-links {
+    text-align: center;
+}
+
+/* Burger menu */
+.nav-links a {
+  color: #F39200;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block; 
+}
+
+/* Styling the burger menu */
+a.icon {
+    color: white;
+    display: block;
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+    font-size: 30px;
+}
+
+a.icon:hover {
+    color: tomato;
 }
 
 /* Images for flickity */
@@ -36,7 +72,6 @@ font-family: Helvetica;
 .body-text {
     padding: 0.5rem;
     font-size: 14px;
-    color: #050505;
 }
 
 
@@ -45,7 +80,7 @@ font-family: Helvetica;
 footer {
     background-color: #F39200;
     max-width: 100%;
-    height: 200px;
+    max-height: 300px;
 }
 
 .footer-text {
@@ -58,7 +93,7 @@ footer {
 .further-info {
     border-radius: 25px;
     background-color: white;
-    margin: 27px 57px;
+    margin: 20px 59px;
     height: 35px;
     padding: 3px;
 }
@@ -79,6 +114,10 @@ input[type="submit"] {
     padding: 5px
 }
 
+.submit-button:hover {
+    color: #f4b942;
+}
+
 input[type="email"] {
     color: #969696;
     border: none;
@@ -88,15 +127,30 @@ input[type="email"] {
     margin-left: 5px;
 }
 
+
 .follow-us {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     font-size: 10px;
     width: 50%;
     color: white;
     margin-left: 89px;
     height: 45px;
 }
+
+.fab:hover {
+    color: black;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+    padding-top: -2rem;
+    margin-top: -1rem;
+}
+
 
 
 
