@@ -11,9 +11,13 @@ color: #4E5056;
 }
 
 .wst-logo-orange {
-    max-width: 73px;
+   width: 73px;
     padding: 0px;
     margin: 0px;   
+}
+
+.nav-list-desktop {
+    display: none;
 }
 
 /* Burger menu */
@@ -57,7 +61,7 @@ a.icon:hover {
 
 /* Images for flickity */
 .placeholder {
-    max-width: 100%;
+    width: 100%;
 }
 
 .placeholder-text {
@@ -139,7 +143,7 @@ input[type="email"] {
 }
 
 .fab:hover {
-    color: black;
+    color: 	tomato;
 }
 
 .copyright {
@@ -163,4 +167,83 @@ input[type="email"] {
 /* Desktop */
 
 @media screen and (min-width: 1240px) {
- 
+/* Navigation bar */
+
+.header {
+    height: 100px;
+}
+
+.wst-logo-orange {
+    width: 106px;
+}
+
+.nav-list-desktop {
+    padding-top: 1rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    margin-top: -5rem;
+    font-size: 15px;
+}
+
+.nav-list-desktop a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list-desktop a:hover{
+    color: tomato;
+}
+  
+a.icon {
+    visibility: hidden;
+    display: none;
+}
+
+/* Main body contwent - desktop */
+
+.placeholder {
+    height: 500px;
+}
+
+.placeholder-text {
+    margin-top: -7rem;
+    font-size: 17px;
+}
+
+.body-text {
+    padding: 23px;
+    font-size: 15px;
+}
+
+/* Footer-desktop */
+
+.footer-text {
+    font-size: 14px;
+}
+
+.further-info {
+    padding: 10px;
+    margin: 27px 338px;
+}
+
+.follow-us {
+    font-size: 23px;
+    width: 50%;
+    height: 45px;
+    margin: auto;
+}
+
+.copyright {
+    font-size: 17px;
+
+}
+
+input[type="submit"] {
+    padding: 11px;
+    top: -2px;
+
+
+}
+
