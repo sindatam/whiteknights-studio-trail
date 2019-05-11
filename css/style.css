@@ -20,6 +20,10 @@ color: #4E5056;
     display: none;
 }
 
+.sub-categories-menu-desktop {
+    display: none;
+}
+
 /* Burger menu */
 
 .nav-links {
@@ -59,7 +63,7 @@ a.icon:hover {
     color: tomato;
 }
 
-/* Images for flickity */
+
 .placeholder {
     width: 100%;
 }
@@ -170,7 +174,7 @@ input[type="email"] {
 /* Navigation bar */
 
 .header {
-    height: 100px;
+    height: 107px;
 }
 
 .wst-logo-orange {
@@ -201,7 +205,45 @@ a.icon {
     display: none;
 }
 
-/* Main body contwent - desktop */
+/* Mouseover menu to appear for Category list */
+
+.category-list {
+    color: white;
+}
+
+.category-list:hover {
+    color: tomato;
+}
+
+.sub-categories-menu-desktop {
+    display: none;
+    background-color: #EDE9E9;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    margin: auto;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+}
+
+.sub-categories-menu-desktop  a {
+        text-decoration: none;  
+    }
+
+.sub-categories-menu-desktop a li {
+    color: #F39200;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none !important;
+}
+
+.sub-categories-menu-desktop a li:hover {
+    color: white;
+}
+
+
+/* Main body content - desktop */
 
 .placeholder {
     height: 500px;
@@ -243,7 +285,6 @@ a.icon {
 input[type="submit"] {
     padding: 11px;
     top: -2px;
-
 
 }
 
