@@ -51,6 +51,32 @@ body {
     font-size: 14px;
 }
 
+/* Hide the text for the read more/less button */
+
+#more {
+    display: none;
+}
+
+button {
+    color: white;
+    background-color: #f39200;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 10px;
+    width: 112px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: tomato;
+}
+
+button:active {
+    background-color: tomato;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
 footer {
     background-color: #F39200;
     max-width: 100%;
@@ -99,4 +125,6 @@ footer {
     /* Desktop */
         
 @media screen and (min-width: 1240px) {
+
+
 
