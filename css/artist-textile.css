@@ -39,12 +39,17 @@ body {
     color: white;
 }
 
-/* Image */
-img {
+/* Main body */
+/* Images */
+
+.textile-images {
     width: 100%;
 }
 
-
+.textile-text {
+    padding: 0.5rem;
+    font-size: 14px;
+}
 
 footer {
     background-color: #F39200;
@@ -84,24 +89,14 @@ footer {
 }
 
 
+
 /* Responsive */
 
 /* Tablet */
 
 @media screen and (min-width: 680px) {
 
-/* Desktop */
-    
+    /* Desktop */
+        
 @media screen and (min-width: 1240px) {
 
-.header {
-    height: 107px;
-}
-    
-.wst-logo-orange {
-    width: 106px;
-}
-
-.placeholder-textile {
-    height: 500px;
-}
