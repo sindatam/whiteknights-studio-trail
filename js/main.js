@@ -14,3 +14,12 @@ $('.icon').on('click', function() {
   $('.sub-categories-menu-desktop').on('mouseleave', () => {
     $('.sub-categories-menu-desktop').hide();
   })
+
+
+  // Textile page 
+
+  $('.artists-list').on('click', function() {
+    $('.artists-list-menu').toggle();
+  })
+  
+  
