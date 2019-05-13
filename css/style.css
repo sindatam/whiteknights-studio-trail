@@ -24,6 +24,10 @@ color: #4E5056;
     display: none;
 }
 
+.sub-categories-where {
+    display:none;
+}
+
 /* Burger menu */
 
 .nav-links {
@@ -207,12 +211,47 @@ a.icon {
 
 /* Mouseover menu to appear for Category list */
 
+.where-list {
+    color: white;
+}
+
+.where-list:hover {
+color: tomato;
+}
+
+
 .category-list {
     color: white;
 }
 
 .category-list:hover {
     color: tomato;
+}
+
+.sub-categories-where {
+    display: none;
+    background-color: #EDE9E9;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    height: 49px;
+    margin: 0;
+    padding-top: 1.5rem;
+}
+
+.sub-categories-where a {
+    text-decoration: none;
+}
+
+.sub-categories-where a li {
+    color: #F39200;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none !important;
+}
+
+.sub-categories-where a li:hover{
+color: white;
 }
 
 .sub-categories-menu-desktop {
