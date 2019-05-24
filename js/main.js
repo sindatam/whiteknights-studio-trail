@@ -4,18 +4,27 @@ $('.icon').on('click', function () {
 });
 
 
+
+
 // Desktop version - mouseover for Category / VWhere on the navbar
 
 $('.category-list').on('mouseover', () => {
+  $('.sub-categories').hide()
+  $('.sub-categories-menu-desktop').css("display", "flex")
+  $('.sub-category').hide()
   $('.sub-categories-menu-desktop').show()
 })
+
 
 $('.sub-categories-menu-desktop').on('mouseleave', () => {
   $('.sub-categories-menu-desktop').hide();
 })
 
 $('.where-list').on('mouseover', () => {
+  $('.sub-category').hide()
   $('.sub-categories-where').show()
+  $('.sub-categories').hide()
+  $('.sub-categories-where').css("display", "flex")
 })
 
 $('.sub-categories-where').on('mouseleave', () => {
